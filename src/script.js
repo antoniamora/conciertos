@@ -60,7 +60,7 @@ images.forEach(function(image){
     tlText
       .staggerTo([title, detail], .15, {
         y: -15,
-        opacity: 0
+        opacity: 1
       }, -.15)
       .set([title, detail], {
         y: 15

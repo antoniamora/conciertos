@@ -7,7 +7,7 @@ function $$(elem){
 }
 
 // beep
-var audio = new Audio("https://s3-us-west-2.amazonaws.com/s.cdpn.io/111167/beep3.wav");
+var audio = new Audio("audio/pancho.wav");
 
 var imagesCtr = $$(".image-ctr"),
     images = $$(".image"),
@@ -60,7 +60,7 @@ images.forEach(function(image){
     tlText
       .staggerTo([title, detail], .15, {
         y: -15,
-        opacity: 0
+        opacity: 1
       }, -.15)
       .set([title, detail], {
         y: 15
